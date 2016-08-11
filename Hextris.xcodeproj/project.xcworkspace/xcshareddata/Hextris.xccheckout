@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F00744EA-575C-48C2-AF93-209E6448578B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3F0FA21DD5FFFF683BA09DB88E845D619ABAD73</key>
+		<string>https://github.com/Hextris/hextris.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3F0FA21DD5FFFF683BA09DB88E845D619ABAD73</key>
+		<string>hextris_iOS/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hextris/hextris.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3F0FA21DD5FFFF683BA09DB88E845D619ABAD73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3F0FA21DD5FFFF683BA09DB88E845D619ABAD73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hextris_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

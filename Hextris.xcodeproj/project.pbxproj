@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71B3C581A7873560082F7DB /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C71B3C571A7873560082F7DB /* 1024.png */; };
+		C7389A1B1A755E5200D6D9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7389A1A1A755E5200D6D9A0 /* main.m */; };
+		C7389A1E1A755E5200D6D9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7389A1D1A755E5200D6D9A0 /* AppDelegate.m */; };
+		C7389A211A755E5200D6D9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7389A201A755E5200D6D9A0 /* ViewController.m */; };
+		C7389A261A755E5200D6D9A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7389A251A755E5200D6D9A0 /* Images.xcassets */; };
+		C7389A351A755E5200D6D9A0 /* HextrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7389A341A755E5200D6D9A0 /* HextrisTests.m */; };
+		C7389A3F1A755F0400D6D9A0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7389A3E1A755F0400D6D9A0 /* ViewController.xib */; };
+		C7389AEF1A75649100D6D9A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7389A271A755E5200D6D9A0 /* LaunchScreen.xib */; };
+		C7389AF41A75684800D6D9A0 /* hextris_iOS in Resources */ = {isa = PBXBuildFile; fileRef = C7389AF31A75684800D6D9A0 /* hextris_iOS */; };
+		C7389AF51A75684800D6D9A0 /* hextris_iOS in Resources */ = {isa = PBXBuildFile; fileRef = C7389AF31A75684800D6D9A0 /* hextris_iOS */; };
+		C76857E81A77F8A6000ECC49 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857E71A77F8A6000ECC49 /* libGoogleAdMobAds.a */; };
+		C76857ED1A77FB57000ECC49 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857EC1A77FB57000ECC49 /* AdSupport.framework */; };
+		C76857EF1A77FB64000ECC49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857EE1A77FB64000ECC49 /* AudioToolbox.framework */; };
+		C76857F11A77FB74000ECC49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857F01A77FB74000ECC49 /* AVFoundation.framework */; };
+		C76857F31A77FB83000ECC49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857F21A77FB83000ECC49 /* CoreGraphics.framework */; };
+		C76857F51A77FB8E000ECC49 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857F41A77FB8E000ECC49 /* CoreTelephony.framework */; };
+		C76857F71A77FBA0000ECC49 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857F61A77FBA0000ECC49 /* EventKit.framework */; };
+		C76857F91A77FBA6000ECC49 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857F81A77FBA6000ECC49 /* EventKitUI.framework */; };
+		C76857FB1A77FBAD000ECC49 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857FA1A77FBAD000ECC49 /* MessageUI.framework */; };
+		C76857FD1A77FBB3000ECC49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857FC1A77FBB3000ECC49 /* StoreKit.framework */; };
+		C76857FF1A77FBBB000ECC49 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76857FE1A77FBBB000ECC49 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7389A2F1A755E5200D6D9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7389A0D1A755E5200D6D9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7389A141A755E5200D6D9A0;
+			remoteInfo = Hextris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71B3C571A7873560082F7DB /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		C7389A151A755E5200D6D9A0 /* Hextris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hextris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7389A191A755E5200D6D9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7389A1A1A755E5200D6D9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7389A1C1A755E5200D6D9A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7389A1D1A755E5200D6D9A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7389A1F1A755E5200D6D9A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7389A201A755E5200D6D9A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7389A251A755E5200D6D9A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7389A281A755E5200D6D9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7389A2E1A755E5200D6D9A0 /* HextrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HextrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7389A331A755E5200D6D9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7389A341A755E5200D6D9A0 /* HextrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HextrisTests.m; sourceTree = "<group>"; };
+		C7389A3E1A755F0400D6D9A0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C7389AF31A75684800D6D9A0 /* hextris_iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hextris_iOS; sourceTree = "<group>"; };
+		C76857DB1A77F8A6000ECC49 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		C76857DC1A77F8A6000ECC49 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		C76857DD1A77F8A6000ECC49 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		C76857DE1A77F8A6000ECC49 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		C76857DF1A77F8A6000ECC49 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		C76857E01A77F8A6000ECC49 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		C76857E11A77F8A6000ECC49 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		C76857E21A77F8A6000ECC49 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		C76857E31A77F8A6000ECC49 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		C76857E41A77F8A6000ECC49 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		C76857E51A77F8A6000ECC49 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		C76857E61A77F8A6000ECC49 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		C76857E71A77F8A6000ECC49 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		C76857EC1A77FB57000ECC49 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C76857EE1A77FB64000ECC49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C76857F01A77FB74000ECC49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C76857F21A77FB83000ECC49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C76857F41A77FB8E000ECC49 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C76857F61A77FBA0000ECC49 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C76857F81A77FBA6000ECC49 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		C76857FA1A77FBAD000ECC49 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C76857FC1A77FBB3000ECC49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C76857FE1A77FBBB000ECC49 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7389A121A755E5200D6D9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76857FF1A77FBBB000ECC49 /* SystemConfiguration.framework in Frameworks */,
+				C76857FD1A77FBB3000ECC49 /* StoreKit.framework in Frameworks */,
+				C76857FB1A77FBAD000ECC49 /* MessageUI.framework in Frameworks */,
+				C76857F91A77FBA6000ECC49 /* EventKitUI.framework in Frameworks */,
+				C76857F71A77FBA0000ECC49 /* EventKit.framework in Frameworks */,
+				C76857F51A77FB8E000ECC49 /* CoreTelephony.framework in Frameworks */,
+				C76857F31A77FB83000ECC49 /* CoreGraphics.framework in Frameworks */,
+				C76857F11A77FB74000ECC49 /* AVFoundation.framework in Frameworks */,
+				C76857EF1A77FB64000ECC49 /* AudioToolbox.framework in Frameworks */,
+				C76857ED1A77FB57000ECC49 /* AdSupport.framework in Frameworks */,
+				C76857E81A77F8A6000ECC49 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7389A2B1A755E5200D6D9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71B3C561A7873560082F7DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C71B3C571A7873560082F7DB /* 1024.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C7389A0C1A755E5200D6D9A0 = {
+			isa = PBXGroup;
+			children = (
+				C7389A171A755E5200D6D9A0 /* Hextris */,
+				C7389A311A755E5200D6D9A0 /* HextrisTests */,
+				C7389A161A755E5200D6D9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7389A161A755E5200D6D9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7389A151A755E5200D6D9A0 /* Hextris.app */,
+				C7389A2E1A755E5200D6D9A0 /* HextrisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7389A171A755E5200D6D9A0 /* Hextris */ = {
+			isa = PBXGroup;
+			children = (
+				C71B3C561A7873560082F7DB /* Images */,
+				C76857D31A77ED72000ECC49 /* Libs */,
+				C7389AF31A75684800D6D9A0 /* hextris_iOS */,
+				C7389A3E1A755F0400D6D9A0 /* ViewController.xib */,
+				C7389A1C1A755E5200D6D9A0 /* AppDelegate.h */,
+				C7389A1D1A755E5200D6D9A0 /* AppDelegate.m */,
+				C7389A1F1A755E5200D6D9A0 /* ViewController.h */,
+				C7389A201A755E5200D6D9A0 /* ViewController.m */,
+				C7389A251A755E5200D6D9A0 /* Images.xcassets */,
+				C7389A271A755E5200D6D9A0 /* LaunchScreen.xib */,
+				C7389A181A755E5200D6D9A0 /* Supporting Files */,
+			);
+			path = Hextris;
+			sourceTree = "<group>";
+		};
+		C7389A181A755E5200D6D9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76857FE1A77FBBB000ECC49 /* SystemConfiguration.framework */,
+				C76857FC1A77FBB3000ECC49 /* StoreKit.framework */,
+				C76857FA1A77FBAD000ECC49 /* MessageUI.framework */,
+				C76857F81A77FBA6000ECC49 /* EventKitUI.framework */,
+				C76857F61A77FBA0000ECC49 /* EventKit.framework */,
+				C76857F41A77FB8E000ECC49 /* CoreTelephony.framework */,
+				C76857F21A77FB83000ECC49 /* CoreGraphics.framework */,
+				C76857F01A77FB74000ECC49 /* AVFoundation.framework */,
+				C76857EE1A77FB64000ECC49 /* AudioToolbox.framework */,
+				C76857EC1A77FB57000ECC49 /* AdSupport.framework */,
+				C7389A191A755E5200D6D9A0 /* Info.plist */,
+				C7389A1A1A755E5200D6D9A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7389A311A755E5200D6D9A0 /* HextrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7389A341A755E5200D6D9A0 /* HextrisTests.m */,
+				C7389A321A755E5200D6D9A0 /* Supporting Files */,
+			);
+			path = HextrisTests;
+			sourceTree = "<group>";
+		};
+		C7389A321A755E5200D6D9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7389A331A755E5200D6D9A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76857D31A77ED72000ECC49 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C76857DA1A77F8A6000ECC49 /* Admob */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		C76857DA1A77F8A6000ECC49 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				C76857DB1A77F8A6000ECC49 /* GADAdMobExtras.h */,
+				C76857DC1A77F8A6000ECC49 /* GADAdNetworkExtras.h */,
+				C76857DD1A77F8A6000ECC49 /* GADAdSize.h */,
+				C76857DE1A77F8A6000ECC49 /* GADBannerView.h */,
+				C76857DF1A77F8A6000ECC49 /* GADBannerViewDelegate.h */,
+				C76857E01A77F8A6000ECC49 /* GADInAppPurchase.h */,
+				C76857E11A77F8A6000ECC49 /* GADInAppPurchaseDelegate.h */,
+				C76857E21A77F8A6000ECC49 /* GADInterstitial.h */,
+				C76857E31A77F8A6000ECC49 /* GADInterstitialDelegate.h */,
+				C76857E41A77F8A6000ECC49 /* GADModules.h */,
+				C76857E51A77F8A6000ECC49 /* GADRequest.h */,
+				C76857E61A77F8A6000ECC49 /* GADRequestError.h */,
+				C76857E71A77F8A6000ECC49 /* libGoogleAdMobAds.a */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7389A141A755E5200D6D9A0 /* Hextris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7389A381A755E5200D6D9A0 /* Build configuration list for PBXNativeTarget "Hextris" */;
+			buildPhases = (
+				C7389A111A755E5200D6D9A0 /* Sources */,
+				C7389A121A755E5200D6D9A0 /* Frameworks */,
+				C7389A131A755E5200D6D9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hextris;
+			productName = Hextris;
+			productReference = C7389A151A755E5200D6D9A0 /* Hextris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7389A2D1A755E5200D6D9A0 /* HextrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7389A3B1A755E5200D6D9A0 /* Build configuration list for PBXNativeTarget "HextrisTests" */;
+			buildPhases = (
+				C7389A2A1A755E5200D6D9A0 /* Sources */,
+				C7389A2B1A755E5200D6D9A0 /* Frameworks */,
+				C7389A2C1A755E5200D6D9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7389A301A755E5200D6D9A0 /* PBXTargetDependency */,
+			);
+			name = HextrisTests;
+			productName = HextrisTests;
+			productReference = C7389A2E1A755E5200D6D9A0 /* HextrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7389A0D1A755E5200D6D9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nam Vu";
+				TargetAttributes = {
+					C7389A141A755E5200D6D9A0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C7389A2D1A755E5200D6D9A0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C7389A141A755E5200D6D9A0;
+					};
+				};
+			};
+			buildConfigurationList = C7389A101A755E5200D6D9A0 /* Build configuration list for PBXProject "Hextris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7389A0C1A755E5200D6D9A0;
+			productRefGroup = C7389A161A755E5200D6D9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7389A141A755E5200D6D9A0 /* Hextris */,
+				C7389A2D1A755E5200D6D9A0 /* HextrisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7389A131A755E5200D6D9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7389AF41A75684800D6D9A0 /* hextris_iOS in Resources */,
+				C7389AEF1A75649100D6D9A0 /* LaunchScreen.xib in Resources */,
+				C71B3C581A7873560082F7DB /* 1024.png in Resources */,
+				C7389A3F1A755F0400D6D9A0 /* ViewController.xib in Resources */,
+				C7389A261A755E5200D6D9A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7389A2C1A755E5200D6D9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7389AF51A75684800D6D9A0 /* hextris_iOS in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7389A111A755E5200D6D9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7389A211A755E5200D6D9A0 /* ViewController.m in Sources */,
+				C7389A1E1A755E5200D6D9A0 /* AppDelegate.m in Sources */,
+				C7389A1B1A755E5200D6D9A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7389A2A1A755E5200D6D9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7389A351A755E5200D6D9A0 /* HextrisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7389A301A755E5200D6D9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7389A141A755E5200D6D9A0 /* Hextris */;
+			targetProxy = C7389A2F1A755E5200D6D9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7389A271A755E5200D6D9A0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7389A281A755E5200D6D9A0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7389A361A755E5200D6D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3fc8b811-3d0f-4ccd-8672-931a9fad2fac";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7389A371A755E5200D6D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3fc8b811-3d0f-4ccd-8672-931a9fad2fac";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7389A391A755E5200D6D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				INFOPLIST_FILE = Hextris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hextris/Libs/Admob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3fc8b811-3d0f-4ccd-8672-931a9fad2fac";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7389A3A1A755E5200D6D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nam Vu (5DMT825S4T)";
+				INFOPLIST_FILE = Hextris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hextris/Libs/Admob",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3fc8b811-3d0f-4ccd-8672-931a9fad2fac";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7389A3C1A755E5200D6D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HextrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hextris.app/Hextris";
+			};
+			name = Debug;
+		};
+		C7389A3D1A755E5200D6D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HextrisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hextris.app/Hextris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7389A101A755E5200D6D9A0 /* Build configuration list for PBXProject "Hextris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7389A361A755E5200D6D9A0 /* Debug */,
+				C7389A371A755E5200D6D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7389A381A755E5200D6D9A0 /* Build configuration list for PBXNativeTarget "Hextris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7389A391A755E5200D6D9A0 /* Debug */,
+				C7389A3A1A755E5200D6D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7389A3B1A755E5200D6D9A0 /* Build configuration list for PBXNativeTarget "HextrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7389A3C1A755E5200D6D9A0 /* Debug */,
+				C7389A3D1A755E5200D6D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7389A0D1A755E5200D6D9A0 /* Project object */;
+}
