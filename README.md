@@ -14,4 +14,7 @@ Modified by:
 
 ## License
 
-This work is under a GPL v3 license.
+The source code of Hextelor is licensed under GPL v3. License is available [here](https://github.com/ZuzooVn/Hextelor/blob/master/LICENSE).
+
+
+
